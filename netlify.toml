@@ -4,6 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "22"
+  SECRETS_SCAN_OMIT_KEYS = "EXPO_PUBLIC_SUPABASE_URL,EXPO_PUBLIC_SUPABASE_KEY,EXPO_PUBLIC_ALLOWED_DOMAIN"
 
 # Single-page app: serve index.html for every path so that deep links like
 # /dashboard load the app, where the route guard decides what to show.
