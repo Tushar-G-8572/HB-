@@ -3,6 +3,7 @@ import { Redirect } from 'expo-router';
 import React from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { PrivacyLink } from '@/components/PrivacyLink';
 
 import { Button } from '@/components/Button';
 import { ErrorBanner } from '@/components/ErrorBanner';
@@ -63,6 +64,7 @@ export default function LoginScreen() {
             rejected.
           </Text>
         </View>
+        <PrivacyLink />
       </View>
     </ScrollView>
   );
